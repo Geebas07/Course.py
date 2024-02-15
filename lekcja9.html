@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lekcja1.css">
+    
+    <title>Twoja Strona</title>
+</head>
+<body>
+
+    <header>
+        <h1>Lekcja 9: Pętla while</h1>
+    </header>
+
+    <div class="container">
+        <div id="left-panel">
+            <div id="cele">
+                <h2 id="nazwa">Cele lekcji:</h2>
+                <ol>
+                    <li>Poznanie zasady działania pętli while</li>
+                    <li>Przykłady zastosowań pętli while</li>
+                    
+                </ol>
+            </div>
+            <hr>
+            <div id="text">
+                <p class="tresc">Pętla while w języku Python służy do powtarzania bloku kodu tak długo,
+                     jak długo warunek określony przed pętlą jest spełniony. Wykonuje się następująco: najpierw sprawdza się warunek.
+                    <br>
+                </p>
+                <h4>Przykład:</h4>
+                <p>count = 0</p>
+                <p>while (count < 3): </p>
+                <p style="text-indent: 40px;" >count = count + 1</p>
+                <p style="text-indent: 40px;" >print("Hello World")</p>
+                       
+                <h4>Wynik:</h4>
+                <div class="przyklad">Hello World<br>Hello World<br>Hello World</div>
+                
+
+                <p class="tresc">Funkcja while bywa przedatna w momencie gdy chcemy aby użytkownik wprowadził określoną wartość.
+                   <br>
+               </p>
+
+               <h4>Przykład:</h4>
+                <p>liczba = int(input("podaj liczbę większą lub równą 5: ))</p>
+                <p>while liczba < 5: </p>
+                <p style="text-indent: 40px;" >liczba = int(input("podaj liczbę większą lub równą 5: ))</p>
+                <p>else:</p>
+                <p style="text-indent: 40px;" >print("poprawna liczba)</p>
+                       
+                <h4>Wynik:</h4>
+                <div class="przyklad">podaj liczbę większą lub równą 5: 2<br>podaj liczbę większą lub równą 5: 7<br>poprawna liczba</div>
+                <br>
+                <br>
+            </div>
+        </div>
+
+
+
+        <div id="right-panel">
+            <h2><iframe src="https://trinket.io/embed/python/edd948bf08" width="100%" height="740" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div id="footer">
+        <div id="strzalka_l">
+            <a href="lekcja8.html"><img src="left.png">
+        </div>
+        <div id="strzalka_r">
+            <a href="lekcja10.html"><img src="right.png">
+        </div>
+        <div>
+            <a href="main.html"><img src="dom.png">
+        </div>
+        
+    </div>
+
+</body>
+</html>

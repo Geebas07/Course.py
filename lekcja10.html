@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lekcja1.css">
+    
+    <title>Twoja Strona</title>
+</head>
+<body>
+
+    <header>
+        <h1>Lekcja 10: Pętla for oraz jej zastosowania</h1>
+    </header>
+
+    <div class="container">
+        <div id="left-panel">
+            <div id="cele">
+                <h2 id="nazwa">Cele lekcji:</h2>
+                <ol>
+                    <li>Nauka korzystania z pętli for</li>
+                    
+                </ol>
+            </div>
+            <hr>
+            <div id="text">
+                <p class="tresc">Poznałeś już pętle while, to teraz pora na pętle for. Pętla for w zasadzie pełni dwie funkcje w pythonie. 
+                    Pierwszą jest możliwość korzystania z niej, tak aby odpalić konkretną pętle ile razy chcemy.
+                    Poniżej masz przykład takiego wykorzystania pętli for.
+                    
+                    <br>
+                </p>
+                <h4>Przykład:</h4>
+                <br>
+                slowo = input("Podaj słowo do wypisania: ")<br>
+                ilosc = int(input("Podaj ile razy chcesz to słowo napisać: "))<br>
+                if Moja_funkcja() == 1:<br>
+                for i in range(ilosc):<br>
+	            print(slowo)<br>
+       
+                <h4>Wynik:</h4>
+                <div class="przyklad">
+                    Podaj słowo do wypisania: banan<br>
+                    Podaj ile razy chcesz to słowo napisać: 4<br>
+                    banan<br>
+                    banan<br>
+                    banan<br>
+                    banan
+                </div>
+                <p class="tresc">
+                    Teraz pora na drugie zastosowanie pętli for. 
+                    Pętla for może również przypisać jedną wartość do drugiej, i będzie to robiła dopóki nie wykorzysta wszystkich elementów jakie może przypisać do drugiej zmiennej.
+                    Takie zastosowanie pętli for nazywa się w innych językach "foreach". 
+                    Przeanalizuj poniższy przykład:</p>
+                    <h4>Przykład:</h4>
+                <div class="przyklad">
+                    slowo = input("Podaj słowo: ")<br>
+                    wynik = 0<br>
+                    for word in slowo:<br>
+	                wynik += word<br>
+                    print(wynik)<br>
+                </div>
+                <h4>Wynik:</h4>
+                <div class="przyklad">
+                    slowo = input("Podaj słowo: ")<br>
+                    wynik = ""<br>
+                    for word in slowo:<br>
+	                wynik += word<br>
+                    print(wynik)<br>
+                </div>
+
+            </div>
+        </div>
+        <div id="right-panel">
+            <h2><iframe src="https://trinket.io/embed/python/edd948bf08" width="100%" height="740" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div id="footer">
+        <div id="strzalka_l">
+            <a href="lekcja9.html"><img src="left.png">
+        </div>
+        <div id="strzalka_r">
+            <a href="test.html"><img src="right.png">
+        </div>
+        <div>
+            <a href="main.html"><img src="dom.png">
+        </div>
+        
+    </div>
+
+</body>
+</html>

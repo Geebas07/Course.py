@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lekcja1.css">
+    
+    <title>Twoja Strona</title>
+</head>
+<body>
+
+    <header>
+        <h1>Lekcja 3: Typy zmiennych oraz wartości przeznie przyjmowane cz.1</h1>
+    </header>
+
+    <div class="container">
+        <div id="left-panel">
+            <div id="cele">
+                <h2 id="nazwa">Cele lekcji:</h2>
+                <ol>
+                    <li>Nauka zmiennych liczbowych</li>
+                    <li>Nauka zmiennych przyjmujących znaki</li>
+                </ol>
+            </div>
+            <hr>
+            <div id="text">
+                <p class="tresc">Poznałeś juz dwie zmienne: int oraz string. Już tłumaczę czym jest string. Prawdopodobnie jeszcze nie wiesz czym jest string więc wytłumaczę.
+                     String to zmienna, która przyjmuje znaki oraz ciągi znaków niezależnie od wielkości liter. Kolejnymi zmiennymi, których jeszcze nie poznałeś są float oraz double.
+                     Zmienne te w przeciwieństwie do inta przyjmują także liczby niecałkowite takie jak np.: 0., 0.64. 3.14. Różnica między float a double jest jedna; 
+                     double może mieć maksymalnie aż dwa razy więcej liczb po przecinku niż float. A teraz zróbmy przykład z wykorzystaniem zmiennej float.
+                </p>
+                <h4>Przykład:</h4>
+                niecalkowita = float(input("Podaj jakąkolwiek liczbę niecałkowitą: "))<br>
+                print("Podana przez ciebię liczba niecałkowita: "+ niecalkowita)
+
+                <br>
+                <h4>Wynik:</h4>
+                <div class="przyklad">
+                    Podaj jakąkolwiek liczbę niecałkowitą: 3.1459<br>
+                    Podana przez ciebię liczba niecałkowita: 3.1459
+                </div>
+                <p class="tresc">
+                    Kolejną ważną zmienną jest "char", zmienna ta przyjmuje tylko jeden znak oraz nie przyjmuje liczb. 
+                    Stwórzmy teraz przykładowy kod proszący o pierwszą literę z imienia użytkownika.
+
+
+                </p>
+                    <h4>Przykład:</h4>
+                    litera = char(input("Podaj pierwszą literę swojego imienia: "))<br>
+                    print("Pierwsza litera twojego imienia to: " + litera)
+                    <h4>Wynik:</h4>
+                <div class="przyklad">
+                    Podaj pierwszą literę swojego imienia: A<br>
+                    Pierwsza litera twojego imienia to: A
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="right-panel">
+            <h2><iframe src="https://trinket.io/embed/python/edd948bf08" width="100%" height="740" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+        </div>
+        <div id="underpanel">
+            <h2><iframe src="https://trinket.io/embed/python/edd948bf08" width="100%" height="740" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div id="footer">
+        <div id="strzalka_l">
+            <a href="lekcja2.html"><img src="left.png">
+        </div>
+        <div id="strzalka_r">
+            <a href="lekcja4.html"><img src="right.png">
+        </div>
+        <div>
+            <a href="main.html"><img src="dom.png">
+        </div>
+        
+    </div>
+
+</body>
+</html>

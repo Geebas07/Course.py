@@ -1,0 +1,268 @@
+body{
+    background-color:rgb(217, 217, 217);
+}
+#banner{
+    background-color:rgb(64,64,64);
+    color:white;
+    font-size:64px;
+    text-align:center;
+    padding-bottom:1%;
+    padding-top:1%;
+    border-radius:20px;
+}
+img{
+    width:5%;
+    height:5%;
+    float:left;
+}
+.note{
+    width:35%;
+    height:40%;
+    margin-left:10%;
+    margin-top:5%;
+    font-size:30px;
+    float:left;
+}
+.title{
+    font-size:45px;
+    text-align:center;
+}
+#result1{
+    font-size:large !important;
+}
+#result2{
+    font-size:large !important;
+}
+#result3{
+    font-size:large !important;
+}
+#note1{
+    background-color:rgb(135, 181, 191);
+    border-radius:20px;
+}
+#note2{
+    background-color:rgb(197, 229, 188);
+    border-radius:20px;
+}
+#note3{
+    background-color:rgb(177, 149, 149);
+    border-radius:20px;
+}
+#note4{
+    background-color:rgb(212, 123, 123);
+    border-radius:20px;
+}
+#note5{
+    background-color:rgb(162, 116, 191)  ;
+    border-radius:20px;
+}
+#note6{
+    background-color:rgb(148, 144, 122)   ;
+    border-radius:20px;
+}
+#note7{
+    background-color:rgb(80, 93, 214);
+    border-radius:20px;
+}
+#note8{
+    background-color:rgb(216, 177, 148);
+    border-radius:20px;
+}
+#note9{
+    background-color:rgb(224, 156, 156);
+    border-radius:20px;
+}
+#note10{
+    background-color:rgb(157, 105, 45);
+    border-radius:20px;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+input[type="radio"] {
+    margin-right: 5px;
+}
+#footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    padding-right: 0px;
+    padding-left: 0px;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    clear: both;
+    height:fit-content;
+}
+#back img{
+    width:3%;
+    height:3%;
+}
+#wynik{
+    color:white;
+}
+@media only screen and (min-width:300px){
+    .note{
+        font-size:10px;
+        margin-left:0%;
+        width:100%;
+    }
+    .title{
+        font-size:16px;
+    }
+    #banner{
+        font-size:21px;
+    }  
+}
+@media only screen and (min-width:350px){
+    .note{
+        font-size:12px;
+        margin-left:0%;
+        width:100%;
+    }
+    .title{
+        font-size:18px;
+    }
+    #banner{
+        font-size:24px;
+    } 
+}
+@media only screen and (min-width:400px){
+    .note{
+        font-size:15px;
+        margin-left:0%;
+        width:100%;
+    }
+    .title{
+        font-size:20px;
+    }
+    #banner{
+        font-size:28px;
+    }
+}
+@media only screen and (min-width:500px){
+    .note{
+        font-size:22px;
+        margin-left:0%;
+        width:100%;
+    }
+    .title{
+        font-size:28px;
+    }
+    #banner{
+        font-size:35px;
+    }
+}
+@media only screen and (min-width:800px){
+    .note{
+        font-size:20px;
+    }
+    .title{
+        font-size:32px;
+    }
+    #banner{
+        font-size:40px;
+    }
+}
+@media only screen and (min-width:1070px){
+    .note{
+        font-size:25px;
+        width:35%;
+        margin-left:10%;
+        margin-top:5%;
+    }
+    .title{
+        font-size:39px;
+    }
+    #banner{
+        font-size:54px;
+    }
+}
+@media only screen and (min-width:1300px){
+    .note{
+        font-size:29px;
+        width:35%;
+        margin-left:10%;
+        margin-top:5%; 
+    }
+    .title{
+        font-size:42px;
+    }
+    #banner{
+        font-size:62px;
+    }
+}
+@media only screen and (min-width:1450px){
+    .note{
+        font-size:31px;
+        width:35%;
+        margin-left:10%;
+        margin-top:5%; 
+    }
+    .title{
+        font-size:44px;
+    }
+    #banner{
+        font-size:64px;
+    }
+}
+@media only screen and (min-width:1540px){
+    .note{
+        font-size:33px;
+        width:35%;
+        margin-left:10%;
+        margin-top:5%; 
+    }
+    .title{
+        font-size:47px;
+    }
+    #banner{
+        font-size:66px;
+    }
+}
+@media only screen and (min-width:1640px){
+    .note{
+        font-size:36px;
+        width:35%;
+        margin-left:10%;
+        margin-top:5%; 
+    }
+    .title{
+        font-size:50px;
+    }
+    #banner{
+        font-size:70px;
+    }
+}
+@media only screen and (min-width:1900px){
+    img{
+        width:4%;
+        height:4%;
+    }
+}
+@media only screen and (min-width:2000px){
+    .note{
+        font-size:35px;
+        width:35%;
+        margin-left:10%;
+        margin-top:5%; 
+    }
+    .title{
+        font-size:49px;
+    }
+    #banner{
+        font-size:68px;
+    }
+}

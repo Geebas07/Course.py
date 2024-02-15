@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="test.css">
+    <title>Test</title>
+</head>
+<body>
+    
+    <div id="banner">
+        Egzamin końcowy
+        
+        <img src="python.png">
+    </div>
+    
+    <div id="panel">
+        <form id="quizForm">
+        <div class="note">
+            <div id="note1">
+                <div class="title">Wybierz program którego uruchomienie spowoduje wyswietlenie komunikatu Hello World.</div>
+                
+                    <label><input type="radio" name="q1" value="a"> print Hello World</label>
+                    <hr>
+                    <label><input type="radio" name="q1" value="b"> print("Hello World")</label>
+                    <hr>
+                    <label><input type="radio" name="q1" value="c"> System.out.println("Hello World");</label>
+                
+                
+            </div>
+            </div>
+        </div>
+        <div class="note">
+            <div id="note2">
+                <div class="title">Jaki rodzaj zmiennej przechowuje zmienna int?</div>
+                
+                    <label><input type="radio" name="q2" value="a"> liczbową</label>
+                    <hr>
+                    <label><input type="radio" name="q2" value="b"> ciąg znaków</label>
+                    <hr>
+                    <label><input type="radio" name="q2" value="c"> dowolną</label>
+                
+            </div>
+        </div>
+        <div class="note">
+            <div id="note3">
+                <div class="title">Jak stworzyć zmienną przechowójącą liczbę całkowitą 5?</div>
+                
+                    <label><input type="radio" name="q3" value="a"> x = 5</label>
+                    <hr>
+                    <label><input type="radio" name="q3" value="b"> x = int(5)</label>
+                    <hr>
+                    <label><input type="radio" name="q3" value="c"> Obie odpowiedzi są poprawne.</label>
+                
+            </div>
+        </div>
+        <div class="note">
+            <div id="note4">
+                <div class="title">Jaki jest poprawny sposób tworzenia funkcji w pythonie?</div>
+                
+                    <label><input type="radio" name="q4" value="a"> def MojaFunkcja():</label>
+                    <hr>
+                    <label><input type="radio" name="q4" value="b"> create MojaFunkcja():</label>
+                    <hr>
+                    <label><input type="radio" name="q4" value="c"> function MojaFunkcja</label>
+                
+            </div>
+        </div>
+        <div class="note">
+            <div id="note5">
+                <div class="title">Który operator pozwala na porównanie dwóch zmiennych?</div>
+                
+                    <label><input type="radio" name="q5" value="a"> =</label>
+                    <hr>
+                    <label><input type="radio" name="q5" value="b"> /</label>
+                    <hr>
+                    <label><input type="radio" name="q5" value="c"> ==</label>
+                
+            </div>
+        </div>
+        <div class="note">
+            <div id="note6">
+                <div class="title">Który fragment kodu poprawnie definiuje listę?</div>
+                
+                    <label><input type="radio" name="q6" value="a"> lista = "apple", "banana", "cherry"</label>
+                    <hr>
+                    <label><input type="radio" name="q6" value="b"> lista = ["apple", "banana", "cherry"]</label>
+                    <hr>
+                    <label><input type="radio" name="q6" value="c"> lista = {"apple", "banana", "cherry"}</label>
+                
+            </div>
+        </div>
+        <div class="note">
+            <div id="note7">
+                <div class="title">Jak poprawnie zapisać początek instrukcji warunkowej if?</div>
+                
+                    <label><input type="radio" name="q7" value="a"> if x + 2 == y then:</label>
+                    <hr>
+                    <label><input type="radio" name="q7" value="b"> if(x + 2 == y){}</label>
+                    <hr>
+                    <label><input type="radio" name="q7" value="c"> if x + 2 == y:</label>
+                
+            </div>
+        </div>
+        <div class="note">
+            <div id="note8">
+                <div class="title">Jak poprawnie zapisać początek instrukcji warunkowej while?</div>
+                
+                    <label><input type="radio" name="q8" value="a"> whiel x + 2 == y then:</label>
+                    <hr>
+                    <label><input type="radio" name="q8" value="b"> while x + 2 == y:</label>
+                    <hr>
+                    <label><input type="radio" name="q8" value="c"> while( x + 2 == y){}</label>
+                
+            </div>
+        </div>
+        <div class="note">
+            <div id="note9">
+                <div class="title">Jak poprawnie zapisać początek pętli for?</div>
+                
+                    <label><input type="radio" name="q9" value="a"> for i in x:</label>
+                    <hr>
+                    <label><input type="radio" name="q9" value="b"> for(int i = 20; i > 1; i--){}</label>
+                    <hr>
+                    <label><input type="radio" name="q9" value="c"> for each i in x:</label>
+                
+            </div>
+        </div>
+        <div class="note">
+            <div id="note10">
+                <div class="title">Jak poprawnie zapisać początek pętli for?</div>
+                
+                    <label><input type="radio" name="q10" value="a"> for i in x:</label>
+                    <hr>
+                    <label><input type="radio" name="q10" value="b"> for(int i = 20; i > 1; i--){}</label>
+                    <hr>
+                    <label><input type="radio" name="q10" value="c"> for each i in x:</label>
+            </div>
+        </div>
+    <div id="footer">
+        <div id="back">
+            <a href="main.html"><img src="dom.png">
+        </div>
+        <div id="wynik">
+            <input type="submit" value="Sprawdź odpowiedzi">
+            </form>
+            <div id="result1"></div>
+            <div id="result2"></div>
+            <div id="result3"></div>
+        </div>
+        
+        
+    </div>    
+    </div>
+    <script>
+        document.getElementById('quizForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            var correctAnswers = ['b', 'a', 'c', 'a', 'c', 'b', 'c', 'b', 'a', 'c'];
+            var userAnswers = [];
+            for (var i = 1; i <= 10; i++) {
+                var radios = document.getElementsByName('q' + i);
+                for (var j = 0; j < radios.length; j++) {
+                    if (radios[j].checked) {
+                        userAnswers.push(radios[j].value);
+                        break;
+                    }
+                }
+            }
+            var score = 0;
+            for (var k = 0; k < correctAnswers.length; k++) {
+                if (correctAnswers[k] === userAnswers[k]) {
+                    score++;
+                }
+            }
+            document.getElementById('result1').innerHTML = 'Liczba poprawnych odpowiedzi: ' + score;
+            document.getElementById('result2').innerHTML = 'Wynik procentowy:'  + (score/10)*100 +'%';
+            if (score>=7){
+                document.getElementById('result3').innerHTML = 'Udało Ci się zaliczyć ten test, Gratulacje! ';
+            }
+            else{
+                document.getElementById('result3').innerHTML = 'Niestety nie udało Ci się zaliczyć tego testu! ';
+            }
+        });
+    </script>
+
+
+
+
+
+
+    
+</body>
+</html>

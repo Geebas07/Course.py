@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    width: 100%;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.conatiner{
+    display:flex;
+    height:100000%;
+}
+
+
+#left-panel {
+    flex: 1;
+    background-color: #f0f0f0;
+    overflow-y:auto;
+    height: 800px;
+    
+}
+
+#right-panel {
+    
+    background-color: #e0e0e0;
+    padding-left: 2%;
+    width:50%;
+    
+   
+}
+#under-panel{
+    float:left;
+}
+#footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    padding-right: 0px;
+    padding-left: 0px;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}
+#cele{
+    padding: 2%;
+    font-size: 20px;
+}
+#nazwa{
+    font: bold;
+}
+#text{
+    justify-content:space-between;
+    padding-left: 3%;
+    font-size: 18px;
+    padding-right: 3%;
+}
+
+.przyklad{
+    background-color: lightslategray;
+    width: fit-content;
+    padding: 0.5%;
+    border: groove black 0.5px;
+}
+.tresc{
+    font-size: 20px;
+    text-indent: 35px;
+    letter-spacing: 1px;
+}
+img{
+    width:100px;
+    height:50px;
+}
+#strzalka_l{
+    float:left;
+}
+#strzalka_r{
+    float:right;
+}
+@media only screen and (max-width:700px)/*phone*/
+{
+    #right-panel{
+        display:none;
+        width:0%;
+    }
+    #left-panel{
+        width:100%;
+    }
+    .container{
+        display:grid;
+    }
+}
+@media only screen and (min-width:701px)/*pc and pads*/{
+    #underpanel{
+        display:none;
+    }
+    #right-panel{
+        display:block;
+    }
+    .container{
+        display:flex;
+    }
+    .tresc{
+        font-size: 26px;
+        text-indent: 40px;
+        letter-spacing: 1px;
+    }
+    
+}

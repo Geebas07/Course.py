@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lekcja1.css">
+    
+    <title>Twoja Strona</title>
+</head>
+<body>
+
+    <header>
+        <h1>Lekcja 4: Typy zmiennych oraz wartości przeznie przyjmowane cz.2 + if</h1>
+    </header>
+
+    <div class="container">
+        <div id="left-panel">
+            <div id="cele">
+                <h2 id="nazwa">Cele lekcji:</h2>
+                <ol>
+                    <li>Nauka reszty zmiennych</li>
+                    <li>Nauka obsługi funkcji if</li>
+                </ol>
+            </div>
+            <hr>
+            <div id="text">
+                <p class="tresc">Kolejną ważną zmienną często wykorzystywaną przez programistów jest bool (boolean). 
+                    Zmienna ta przyjmuje tylko dwie wartości false(0) oraz true(1). Czyli po przetłumaczeniu na polski prawda lub fałsz.
+                    Na razie bool za bardzo Ci się nie przyda, więc pomińmy go. Przejdźmy natomiast do funkcji if. Funkcja ta sprawdza
+                     czy podany warunek jest prawdziwy. Jeżeli warunek jest prawdziwy, to funkcja aktywuje kod do niej przypisany. Przeanalizuj poniższy przykład.
+                </p>
+                <h4>Przykład:</h4>
+                liczba = int(input("Podaj jakąś liczbę: "))<br>
+                if liczba>5: <br>
+                    print("Liczba jest większa od 5.")
+                <br>
+                <h4>Wynik:</h4>
+                <div class="przyklad">
+                Podaj jakąś liczbę: 6<br>
+                Liczba jest większa od 5.
+                </div>
+                <p class="tresc">
+                    Funkcja if może również aktywować dany kod, jeżeli warunek nie zostanie spełniony. Służy do tego else(ang. - ponieważ). 
+                    Else używa się odrazu po napisaniu funkcji if oraz okresleniu jej warunku oraz napisaniu kodu do aktywacji dla prawdziwego warunku.
+                    Przeanalizuj poniższy przykład wykorzystania tejże funkcji. 
+                </p>
+                    <h4>Przykład:</h4>
+                    liczba = int(input("Podaj jakąś liczbę: "))<br>
+                    if liczba>10:<br>
+                        print("Liczba jest większa od 10.")<br>
+                    else:<br>
+                        print("Liczba jest mniejsza od 10.")
+                    <h4>Wynik:</h4>
+                <div class="przyklad">
+                    Podaj jakąś liczbę: 8 <br>
+                    Liczba jest mniejsza od 10.
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="right-panel">
+            <h2><iframe src="https://trinket.io/embed/python/edd948bf08" width="100%" height="740" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+        </div>
+        <div id="underpanel">
+            <h2><iframe src="https://trinket.io/embed/python/edd948bf08" width="100%" height="740" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div id="footer">
+        <div id="strzalka_l">
+            <a href="lekcja3.html"><img src="left.png">
+        </div>
+        <div id="strzalka_r">
+            <a href="lekcja5.html"><img src="right.png">
+        </div>
+        <div>
+            <a href="main.html"><img src="dom.png">
+        </div>
+        
+    </div>
+
+</body>
+</html>
